@@ -1,0 +1,10 @@
+GZEXE_EDITED README
+
+This is an edited version of the gzexe sourcecode, freely available from GNU.
+See the comments in the script for full copyright and ownership details.
+
+Changes made:
+* Sleep time reduced from 5s to 0.01s upon updating permissions of temp directory
+* Gzip -1 flag was included to speed up the compression
+
+This was required to pass the ed testcases which timed out after 0.1 seconds.
